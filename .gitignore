@@ -1,0 +1,35 @@
+# Environment
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Vector store (rebuilt by ingest.py)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
